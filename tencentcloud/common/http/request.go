@@ -3,7 +3,7 @@ package common
 import (
 	"io"
 
-	log "github.com/cihub/seelog"
+	log "github.com/golang/glog"
 
 	//"log"
 	"math/rand"

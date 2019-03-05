@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"io/ioutil"
 	// "log"
-	log "github.com/cihub/seelog"
 	"net/http"
+
+	log "github.com/golang/glog"
 
 	"github.com/qyzhaoxun/tencentcloud-sdk-go/tencentcloud/common/errors"
 )
@@ -62,7 +63,7 @@ func ParseFromHttpResponse(hr *http.Response, response Response) (err error) {
 		return
 	}
 	if hr.StatusCode != 200 {
-		log.Errorf("[ERROR] Request fail with status: %s, with body: %s", hr.Status, body)    
+		log.Errorf("[ERROR] Request fail with status: %s, with body: %s", hr.Status, body)
 		return fmt.Errorf("Request fail with status: %s, with body: %s", hr.Status, body)
 	}
 	log.Infof("[DEBUG] Response Body=%s", body)

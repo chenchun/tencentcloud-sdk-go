@@ -2,9 +2,10 @@ package common
 
 import (
 	// "log"
-	log "github.com/cihub/seelog"
 	"net/http"
 	"time"
+
+	log "github.com/golang/glog"
 
 	tchttp "github.com/qyzhaoxun/tencentcloud-sdk-go/tencentcloud/common/http"
 	"github.com/qyzhaoxun/tencentcloud-sdk-go/tencentcloud/common/profile"
