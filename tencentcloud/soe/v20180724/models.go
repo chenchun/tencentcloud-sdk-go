@@ -17,7 +17,7 @@ package v20180724
 import (
     "encoding/json"
 
-    tchttp "github.com/qyzhaoxun/tencentcloud-sdk-go/tencentcloud/common/http"
+    tchttp "github.com/chenchun/tencentcloud-sdk-go/tencentcloud/common/http"
 )
 
 type InitOralProcessRequest struct {

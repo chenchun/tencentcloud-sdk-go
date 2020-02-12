@@ -8,7 +8,7 @@ import (
 	log "github.com/cihub/seelog"
 	"net/http"
 
-	"github.com/qyzhaoxun/tencentcloud-sdk-go/tencentcloud/common/errors"
+	"github.com/chenchun/tencentcloud-sdk-go/tencentcloud/common/errors"
 )
 
 type Response interface {

@@ -15,9 +15,9 @@
 package v20180410
 
 import (
-    "github.com/qyzhaoxun/tencentcloud-sdk-go/tencentcloud/common"
-    tchttp "github.com/qyzhaoxun/tencentcloud-sdk-go/tencentcloud/common/http"
-    "github.com/qyzhaoxun/tencentcloud-sdk-go/tencentcloud/common/profile"
+    "github.com/chenchun/tencentcloud-sdk-go/tencentcloud/common"
+    tchttp "github.com/chenchun/tencentcloud-sdk-go/tencentcloud/common/http"
+    "github.com/chenchun/tencentcloud-sdk-go/tencentcloud/common/profile"
 )
 
 const APIVersion = "2018-04-10"

@@ -17,7 +17,7 @@ package v20180709
 import (
     "encoding/json"
 
-    tchttp "github.com/qyzhaoxun/tencentcloud-sdk-go/tencentcloud/common/http"
+    tchttp "github.com/chenchun/tencentcloud-sdk-go/tencentcloud/common/http"
 )
 
 type BillDetail struct {
